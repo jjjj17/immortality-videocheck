@@ -1,8 +1,10 @@
-# immortality-videocheck
+# Immortality-Videocheck
 
 ## What is it and how to use it
 
 Counting the remaining videos for [**Immortality** by Sam Barlow](https://store.steampowered.com/app/1350200/IMMORTALITY/).
+
+![](https://cdn.cloudflare.steamstatic.com/steam/apps/1350200/header.jpg?t=1705688457)
 
 The following is a script designed to count and identify how many videos you have seen and how many you have remaining, using the log files from the game. I created this because towards the end of the game, finding the remaining videos can be very frustrating. This tool can make that much easier by giving you a file with the remaining videos you have to search for. 
 
@@ -32,7 +34,9 @@ Also, thanks to Sam Barlow and the Immortality team for this great game.
 ## Contributing
 
 Please, feel free to contribute to the repository. For any further discussion, message me.
-Ideas for contributions:
+
+### Ideas for contributions:
+
 - [ ] Refactoring code and cleaning up some variable names.
 - [ ] Validating that the numbers on the list are the same numbers from the log. This hasn't been checked so far, unless it was done for the original reddit list.
 - [ ] Creating a tag system to recommend remaining items/characters to click on.
