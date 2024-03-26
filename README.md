@@ -23,7 +23,7 @@ Immortality video count:
 ``` 
 
 
-You can also export the remaining list of videos using the *validate()* function, you can see a working example in the [test.py](test.py) script. It uses a real (but edited) log and exports an Excel file with the information of your missing videos. The video count and its accuracy were checked by hand.
+You can also export the remaining list of videos using the *validate()* function, you can see a working example in the [test.py](test.py) script. The test script uses a real (but edited) log and exports an Excel file with the information of the missing videos. The video count and its accuracy were checked by hand.
 
 ## Credits
 
