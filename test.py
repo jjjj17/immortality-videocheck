@@ -4,16 +4,19 @@ from videocheck import readlog, videocount, validate, rvcounter
 
 rvcounter("./data/Testlog.log")
 
-#Example 2: Get a dataframe of your remaining videos and export it to an excel file.
+#Example 2: Get a dataframe of your remaining videos and export it to an excel file. Also, show df as output. 
 
 log = readlog("./data/Testlog.log")
 seenvideos = videocount(log)
 seendf, remainingdf = validate(seenvideos)
 remainingdf.to_excel("test_remaining_video_info.xlsx")
+print("Remaning videos: ")
+print(remainingdf)
+
 
 #Example 3: Check to  see if the seen videos list is accurate.
 
 log = readlog("./data/Testlog.log")
 seenvideos = videocount(log)
 seendf, remainingdf = validate(seenvideos)
-print(seendf)
+#print(seendf) <- uncomment this line to see the output.
