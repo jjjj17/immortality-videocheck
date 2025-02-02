@@ -12,6 +12,10 @@ The easiest way to run this script is to use the *rvcounter()* function with you
 
 `C:\Users<username>\AppData\LocalLow\Half Mermaid Productions\Immortality\Player.log.`
 
+On a MacOS you can find it at:
+
+`/Users/<username>/Library/Logs/Half Mermaid Productions/Immortality/Player.log`
+
 Running rvcounter with that file will give you a message in this format: 
 
 
